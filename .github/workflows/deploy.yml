@@ -3,7 +3,7 @@ name: Déploiement Portfolio GitHub Pages
 on:
   push:
     branches:
-      - main  # Change en 'master' si ta branche s'appelle master
+      - main
 
 jobs:
   deploy:
