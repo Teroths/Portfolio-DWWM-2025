@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "eslint": "^9.33.0",
+    "htmlhint": "^1.6.3",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}
