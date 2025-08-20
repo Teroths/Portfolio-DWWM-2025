@@ -33,6 +33,12 @@ jobs:
       - name: Vérifier le CSS
         run: npx stylelint "**/*.css"
         
+      - name: Install ESLint
+        run: npm install -g eslint
+
+      - name: Vérifier le JS
+        run: npx eslint .
+
       - name: Déployer sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
