@@ -5,7 +5,8 @@ module.exports = {
     "color-no-invalid-hex": true,
     "declaration-block-no-duplicate-properties": true,
     "no-empty-source": true,
-    "declaration-block-single-line-max-declarations": false
+    "declaration-block-single-line-max-declarations": null,
+    "no-descending-specificity": null
     
   }
 };
