@@ -79,10 +79,10 @@ a.btn-outline-primary:hover {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
   border-radius: 0.75rem;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 6%);
 }
 
 /* Style du bouton pour remonter en haut */
@@ -98,7 +98,7 @@ a.btn-outline-primary:hover {
   font-size: 18px;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
   transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -108,11 +108,11 @@ a.btn-outline-primary:hover {
 }
 
 /* Ajouter une visibilité uniquement quand on scrolle */
-#scrollTopBtn {
+#scroll-top-btn {
   display: none;
 }
 
-#scrollTopBtn.show {
+#scroll-top-btn.show {
   display: block;
 }
 
